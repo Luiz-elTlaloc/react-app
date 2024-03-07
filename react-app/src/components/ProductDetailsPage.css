@@ -1,0 +1,165 @@
+.product-choice {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Lato";
+  }
+  
+  .product-choice h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Lato";
+  }
+
+  
+Estilos para el carrusel 
+.slick-slider {
+    position: relative;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slick-arrow slick-prev{
+    color: black;
+  }
+  .slick-slide {
+    float: left;
+    min-height: 1px;
+    display: none;
+    color: black;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 18px;
+    color: #333;
+    z-index: 1;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 12px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #bbb;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #333;
+  }
+
+  .product-tag {
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Lato;
+  }
+
+  .product-details {
+    font-size: 20px;
+    font-family: Lato;
+  }
+
+  .product-price {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Lato;
+    padding: 10px 20px;
+    border: none;
+    font-size: 34px;
+    color: #ffffff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: rgb(255, 176, 39);
+    box-shadow: 0 0 25px rgb(244, 156, 3);
+  }
+
+  .product-card-price {
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+  .product-discount {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Lato;
+    color: rgb(0, 0, 0);
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+
+  .product-rate {
+    font-size: 20px;
+    font-family: Lato;
+  }
+
+  .product-stock {
+    font-size: 20px;
+    font-family: Lato;
+  }
+
+  .product-brand {
+    font-size: 20px;
+    font-family: Lato;
+  }
+
+  .product-category {
+    font-size: 20px;
+    font-family: Lato;
+  }
+
+  .product-info-box {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+
+  .prod-headline {
+    font-size: 20px;
+  } 
